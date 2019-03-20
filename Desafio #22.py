@@ -1,0 +1,11 @@
+nome = input('Digite o seu nome: ')
+min = nome.lower()
+mai = nome.upper()
+qua = len(nome.replace(' ',''))
+pri = nome.split()
+priq = len(pri[0])
+
+print('O seu nome com letras maiúsculas: {}'.format(mai))
+print('O seu nome com letras minúsculas: {}'.format(min))
+print('A quantidade de letras do seu nome é: {}'.format(qua))
+print('A quantidade de letras do seu primeiro nome: {}'.format(priq))
